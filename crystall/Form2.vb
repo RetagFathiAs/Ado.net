@@ -14,19 +14,9 @@ Public Class Form2
     texts = searchtext.Text
     nametxet.Text = texts
 
-    Me.Refresh()
+   
   End Sub
-  Public Function sett()
 
-    Dim en As String = Me.searchtext.Text
-
-    Return (en)
-  End Function
-
-  Private Sub delbtn_Click(sender As Object, e As EventArgs)
-
-
-  End Sub
 
   Private Sub codingbtn_Click(sender As Object, e As EventArgs) Handles codingbtn.Click
 
